@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Images with Litter</folder>
+	<filename>bautista_y271.jpg</filename>
+	<path>C:\Users\Francis\Desktop\Francis Bautista\Images with Litter\bautista_y271.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>299</xmin>
+			<ymin>458</ymin>
+			<xmax>313</xmax>
+			<ymax>465</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>223</xmin>
+			<ymin>392</ymin>
+			<xmax>233</xmax>
+			<ymax>398</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>220</xmin>
+			<ymin>404</ymin>
+			<xmax>233</xmax>
+			<ymax>412</ymax>
+		</bndbox>
+	</object>
+</annotation>

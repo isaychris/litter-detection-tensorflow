@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Images with Litter</folder>
+	<filename>leal_y25.jpg</filename>
+	<path>C:/Users/Mayraa/Documents/New folder (2)/Dataset 2/Mayra Leal/Images with Litter/leal_y25.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>415</xmin>
+			<ymin>501</ymin>
+			<xmax>429</xmax>
+			<ymax>512</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>540</xmin>
+			<ymin>516</ymin>
+			<xmax>551</xmax>
+			<ymax>525</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>375</xmin>
+			<ymin>565</ymin>
+			<xmax>382</xmax>
+			<ymax>568</ymax>
+		</bndbox>
+	</object>
+</annotation>

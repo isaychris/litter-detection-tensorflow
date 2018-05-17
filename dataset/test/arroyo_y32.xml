@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Images with Litter</folder>
+	<filename>arroyo_y32.jpg</filename>
+	<path>C:\Users\Default\Desktop\Dataset\Citally Arroyo\Images with Litter\arroyo_y32.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>369</ymin>
+			<xmax>35</xmax>
+			<ymax>380</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>309</xmin>
+			<ymin>356</ymin>
+			<xmax>324</xmax>
+			<ymax>371</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>623</xmin>
+			<ymin>548</ymin>
+			<xmax>640</xmax>
+			<ymax>566</ymax>
+		</bndbox>
+	</object>
+</annotation>

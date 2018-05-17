@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Images with Litter</folder>
+	<filename>kiefer_y145.jpg</filename>
+	<path>C:\Users\Brandon Kiefer\Desktop\Dataset\Images with Litter\kiefer_y145.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>515</xmin>
+			<ymin>503</ymin>
+			<xmax>525</xmax>
+			<ymax>515</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>219</xmin>
+			<ymin>452</ymin>
+			<xmax>223</xmax>
+			<ymax>458</ymax>
+		</bndbox>
+	</object>
+</annotation>

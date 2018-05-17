@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Images with Litter</folder>
+	<filename>progner_y22.jpg</filename>
+	<path>C:\Users\Brenda\Desktop\Katelyn Progner\New Folder With Items\Images with Litter\progner_y22.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>605</xmin>
+			<ymin>407</ymin>
+			<xmax>611</xmax>
+			<ymax>413</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>382</xmin>
+			<ymin>365</ymin>
+			<xmax>390</xmax>
+			<ymax>371</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>516</xmin>
+			<ymin>376</ymin>
+			<xmax>528</xmax>
+			<ymax>383</ymax>
+		</bndbox>
+	</object>
+</annotation>

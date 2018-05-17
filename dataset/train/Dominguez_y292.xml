@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images with Litter</folder>
+	<filename>Dominguez_y292.jpg</filename>
+	<path>C:\Users\Gloria\Desktop\Dataset\Gloria Dominguez\Images with Litter\Dominguez_y292.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>430</xmin>
+			<ymin>487</ymin>
+			<xmax>440</xmax>
+			<ymax>496</ymax>
+		</bndbox>
+	</object>
+</annotation>

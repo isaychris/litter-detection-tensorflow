@@ -1,0 +1,26 @@
+<annotation>
+	<folder>With litter</folder>
+	<filename>andrews_y76.jpg</filename>
+	<path>C:/Users/andrews fam/Documents/Dataset/With litter/andrews_y76.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>551</xmin>
+			<ymin>583</ymin>
+			<xmax>575</xmax>
+			<ymax>602</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images with Litter</folder>
+	<filename>chavoya_y68.jpg</filename>
+	<path>C:\Users\Manuel Chavoya\Desktop\Manuel Chavoya-20180321T163403Z-001\Manuel Chavoya\Images with Litter\chavoya_y68.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>442</ymin>
+			<xmax>31</xmax>
+			<ymax>496</ymax>
+		</bndbox>
+	</object>
+</annotation>

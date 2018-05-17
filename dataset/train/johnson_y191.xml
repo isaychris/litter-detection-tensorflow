@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Images with litter</folder>
+	<filename>johnson_y114.jpg</filename>
+	<path>C:\Users\Emily\Desktop\Spring 2018\PSYC 333\Dataset\Images with litter\johnson_y114.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>531</xmin>
+			<ymin>414</ymin>
+			<xmax>535</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>519</xmin>
+			<ymin>460</ymin>
+			<xmax>521</xmax>
+			<ymax>466</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>440</xmin>
+			<ymin>410</ymin>
+			<xmax>458</xmax>
+			<ymax>418</ymax>
+		</bndbox>
+	</object>
+</annotation>

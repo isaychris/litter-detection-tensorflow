@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Images with litter</folder>
+	<filename>stone_y33.jpg</filename>
+	<path>C:\Users\Vivian Tang\Desktop\Amanda Stone\Images with litter\stone_y33.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>470</ymin>
+			<xmax>48</xmax>
+			<ymax>482</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>131</xmin>
+			<ymin>454</ymin>
+			<xmax>165</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>192</xmin>
+			<ymin>438</ymin>
+			<xmax>216</xmax>
+			<ymax>460</ymax>
+		</bndbox>
+	</object>
+</annotation>

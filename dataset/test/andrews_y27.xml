@@ -1,0 +1,38 @@
+<annotation>
+	<folder>With litter</folder>
+	<filename>andrews_y27.jpg</filename>
+	<path>C:/Users/andrews fam/Documents/Dataset/With litter/andrews_y27.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>12</xmin>
+			<ymin>474</ymin>
+			<xmax>30</xmax>
+			<ymax>488</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>342</xmin>
+			<ymin>406</ymin>
+			<xmax>347</xmax>
+			<ymax>425</ymax>
+		</bndbox>
+	</object>
+</annotation>

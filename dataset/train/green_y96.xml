@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images with Litter</folder>
+	<filename>green_y96.jpg</filename>
+	<path>C:\Users\jewel\Documents\Julia Green\Images with Litter\windows_v1.6.0\data\Images with Litter\Images with Litter\green_y96.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>466</xmin>
+			<ymin>459</ymin>
+			<xmax>474</xmax>
+			<ymax>467</ymax>
+		</bndbox>
+	</object>
+</annotation>

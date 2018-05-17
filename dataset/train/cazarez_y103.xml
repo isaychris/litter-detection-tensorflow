@@ -1,0 +1,26 @@
+<annotation>
+	<folder>DATA</folder>
+	<filename>cazarez_y103.jpg</filename>
+	<path>\\viking\students\cazar011\Desktop\DATA\cazarez_y103.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>litter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>566</xmin>
+			<ymin>573</ymin>
+			<xmax>608</xmax>
+			<ymax>604</ymax>
+		</bndbox>
+	</object>
+</annotation>
