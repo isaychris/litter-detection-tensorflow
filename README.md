@@ -1,3 +1,3 @@
 # litter-detection-tensorflow
 
-WIP
+![Image](https://i.imgur.com/EfqqoSm.png)
