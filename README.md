@@ -1,9 +1,9 @@
 # litter-detection-tensorflow
-WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP
-
 ![Image](https://i.imgur.com/yUgihfe.png)
 
 # Task
+Keep America Beautiful’s goal is make the environment clean and green. Through their partners, they are able to educate people on how they can do their part in improving the environment. 
+
 Keep America Beautiful needs an algorithm that will take an image from Google Streets and
 identify the litter visible in the picture. The organization currently has people volunteer in
 different zip codes to host a community clean up event. This is done without any statistical
@@ -12,13 +12,18 @@ It will allow them to understand which types of litter occur most in different z
 which zip codes contain the most litter. Keep America Beautiful will be able to take action
 in saving the environment in a much more efficient manner.
 
-### Proposal 
 The team fixIT, proposed to design an algorithm that takes images from Google Streets to identify the
-presence of litter as much as possible. The algorithm will also display the accuracy of the
-identification and a ranking score that acts as an index to measure litter.
+presence of litter as much as possible. The algorithm would also display the accuracy of the
+identification.
 
 ### Requirements
-![Image](https://i.imgur.com/C30BkWa.png)
+ID | Requirement | Details | Critical | Implemented?
+--- | --- | --- | --- | ---
+SR-1 | Pattern recognition | Recognizes the differences in patterns in the image in order to conclude if there is an object in it | High | Yes
+SR-2 | Object detection | Algorithm detects and localizes all the different objects in the picture using visual indicator (with the usage of pattern recognition) | High | Yes
+SR-3 | Object classification | Algorithm identifies and classifies the litter within all the detected objects. Uses the human code for learning and improving | High | Yes
+SR-4 | Accuracy | Evaluates the accuracy of each identified object and outputs into image (E.g. “70% sure this is litter”) | High | Yes
+
 
 # Implementation
 ### Object Detection
