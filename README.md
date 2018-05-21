@@ -25,7 +25,28 @@ SR-3 | Object classification | Algorithm identifies and classifies the litter wi
 SR-4 | Accuracy | Evaluates the accuracy of each identified object and outputs into image (E.g. “70% sure this is litter”) | High | Yes
 
 
-# Implementation
+### Deliverables
+The algorithm
+* It will utilize the Google Streets API
+* When executed, it will display the Street image with outlines of the litter that is visible along with percentages based on the accuracy
+
+How accurate the algorithm can detect the presence of litter according to our tests
+* What types of litter we considered for the algorithm
+* What types of litter we did not consider for the algorithm
+* A programmers manual
+* A user manual
+
+### Measures of success
+JAD 1 Establish Requirements of the project  
+JAD 2 Finalize Requirements of the project  
+Prototype 1 Have an algorithm working with static images  
+Prototype 2 Have an algorithm working that only identifies litter  
+Final Algorithm working that is as accurate as possible  
+
+### Timeline
+![Image](https://i.imgur.com/FcqMOXd.png)
+
+# Development Process
 ### Object Detection
 FixIT chose to use the TensorFlow API to create the algorithm, Jupyter Notebook to interface the algorithm, and an Amazon Web Services Ubuntu server to train the algorithm. Using TensorFlow’s pre-trained model and its associated COCO dataset, the team was able to have a foundation for the object detection portion of the project’s development. The resulting algorithm of Prototype 1 boxed relatively every object that it detected within an input image, as exemplified in the provided image. Each detected object is surrounded by a box. The percentage indicated with each detected object is a confidence indicator detailing the accuracy of that specific detection. For example, the algorithm is 76% confident that it detected a kite in the picture provided. There is also a ranking system that was implemented, although unstandardized. 
 
