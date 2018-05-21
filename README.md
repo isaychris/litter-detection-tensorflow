@@ -36,8 +36,10 @@ The goal for Prototype 2 was to implement the litter recognition portion of the 
 Once the training was done, fixIT tested the algorithm with a variety of images. The images that did not contain litter in the dataset were also used here. The team needed to make sure the algorithm would not box other objects in images even if there was no litter in the picture. Eventually after hours of testing and training, the team was satisfied with the result. The final output has the algorithm only box pieces of litter with over a 50% confidence, along with a ranking for the image.
 
 # Future Enhancements
-* Ranking system standards
-* Expand to detecting specific types of litter such as bottles, cans, cardboard, plastic, paper, etc
-* User Interface
-* Integrated dynamically with Google Streets
-* Use on a national scale to highlight which areas in the US are most littered 
+One of the future enhancements is integrating the algorithm into a user interface. The user interface will visualize the output of the algorithm, such as the number of pieces detected and the ranking. It will allow for a smoother experience to run the algorithm for a user.
+
+Currently the algorithm has a ranking system integrated. It ranks the image on a scale from 1 to 4 depending on the number of pieces of litter detected. A standard for this ranking system still needs to be developed.
+
+For further development, the dataset can be split into different categories. At this point the algorithm only recognizes litter as a whole category. The dataset will need to be expanded, so the algorithm can differentiate between plastic, cans, paper, bottles, etc.
+
+At this stage, the algorithm only processes a static image.  Using the Google Streets API, the algorithm can be enhanced so that it uses dynamic street images. This would result in more accurate litter detection and analysis of the ranking since a street can be evaluated from different angles.
