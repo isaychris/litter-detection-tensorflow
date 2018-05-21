@@ -84,4 +84,5 @@ Chris B. | https://github.com/isaychris
 Kathy M. | https://github.com/kathymayo5
 Greg S. | https://github.com/gregseda
 Malia T. | https://github.com/curvySage
-Andrew Z. |
+Andrew Z. | N/A
+Vanessa J. | N/A
