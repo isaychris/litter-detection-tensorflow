@@ -1,6 +1,8 @@
 # litter-detection-tensorflow
 WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP
 
+![Image](https://i.imgur.com/yUgihfe.png)
+
 # Task
 Keep America Beautiful needs an algorithm that will take an image from Google Streets and
 identify the litter visible in the picture. The organization currently has people volunteer in
@@ -10,11 +12,12 @@ It will allow them to understand which types of litter occur most in different z
 which zip codes contain the most litter. Keep America Beautiful will be able to take action
 in saving the environment in a much more efficient manner.
 
+### Proposal 
 The team fixIT, proposed to design an algorithm that takes images from Google Streets to identify the
 presence of litter as much as possible. The algorithm will also display the accuracy of the
 identification and a ranking score that acts as an index to measure litter.
 
-# Requirements
+### Requirements
 ![Image](https://i.imgur.com/C30BkWa.png)
 
 # Implementation
@@ -38,7 +41,7 @@ The goal for Prototype 2 was to implement the litter recognition portion of the 
 ![Image](https://i.imgur.com/EfqqoSm.png)
 Once the training was done, fixIT tested the algorithm with a variety of images. The images that did not contain litter in the dataset were also used here. The team needed to make sure the algorithm would not box other objects in images even if there was no litter in the picture. Eventually after hours of testing and training, the team was satisfied with the result. The final output has the algorithm only box pieces of litter with over a 50% confidence, along with a ranking for the image.
 
-# Future Enhancements
+### Future Enhancements
 One of the future enhancements is integrating the algorithm into a user interface. The user interface will visualize the output of the algorithm, such as the number of pieces detected and the ranking. It will allow for a smoother experience to run the algorithm for a user.
 
 Currently the algorithm has a ranking system integrated. It ranks the image on a scale from 1 to 4 depending on the number of pieces of litter detected. A standard for this ranking system still needs to be developed.
@@ -46,3 +49,12 @@ Currently the algorithm has a ranking system integrated. It ranks the image on a
 For further development, the dataset can be split into different categories. At this point the algorithm only recognizes litter as a whole category. The dataset will need to be expanded, so the algorithm can differentiate between plastic, cans, paper, bottles, etc.
 
 At this stage, the algorithm only processes a static image.  Using the Google Streets API, the algorithm can be enhanced so that it uses dynamic street images. This would result in more accurate litter detection and analysis of the ranking since a street can be evaluated from different angles.
+
+# Team
+Name | Profile
+--- | ---
+Chris B. | https://github.com/isaychris
+Kathy M. | https://github.com/kathymayo5
+Greg S. | https://github.com/gregseda
+Malia T. | https://github.com/curvySage
+Andrew Z. |
