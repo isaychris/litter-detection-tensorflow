@@ -1,4 +1,6 @@
 # litter-detection-tensorflow
+CSUSM: Project Management & Practice  
+Spring 2018 - Dr. Shuan-inn Wuu
 ![Image](https://i.imgur.com/yUgihfe.png)
 
 # Task
