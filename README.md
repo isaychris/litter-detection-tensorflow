@@ -1,7 +1,7 @@
 # litter-detection-tensorflow
 WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP
-![Image](https://i.imgur.com/EfqqoSm.png)
 
+# Task
 Keep America Beautiful needs an algorithm that will take an image from Google Streets and
 identify the litter visible in the picture. The organization currently has people volunteer in
 different zip codes to host a community clean up event. This is done without any statistical
@@ -14,6 +14,8 @@ The team fixIT, proposed to design an algorithm that takes images from Google St
 presence of litter as much as possible. The algorithm will also display the accuracy of the
 identification and a ranking score that acts as an index to measure litter.
 
+# Requirements
+![Image](https://i.imgur.com/C30BkWa.png)
 
 # Implementation
 ### Object Detection
@@ -32,7 +34,8 @@ Keep America Beautiful provided a team of students who would label the images. T
 ![Image](https://i.imgur.com/cP42Ya1.gif)
 The goal for Prototype 2 was to implement the litter recognition portion of the algorithm. In order to implement the recognition, however, the team would first need to train the labeled dataset according to its needs. The team first split the dataset into two sets; 80% of images were used for training and the rest was used for testing. FixIT trained the algorithm to certain amount of “steps”, producing a checkpoint file used to test the algorithm’s litter recognition accuracy. These checkpoint files indicated to the team when to stop the training and test the algorithm to verify the algorithm’s learning progress. If the team deemed the algorithm to be overtrained, the previously saved checkpoint file would be used.
 
-## Litter Detection
+### Litter Detection
+![Image](https://i.imgur.com/EfqqoSm.png)
 Once the training was done, fixIT tested the algorithm with a variety of images. The images that did not contain litter in the dataset were also used here. The team needed to make sure the algorithm would not box other objects in images even if there was no litter in the picture. Eventually after hours of testing and training, the team was satisfied with the result. The final output has the algorithm only box pieces of litter with over a 50% confidence, along with a ranking for the image.
 
 # Future Enhancements
