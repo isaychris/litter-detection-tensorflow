@@ -24,26 +24,6 @@ SR-2 | Object detection | Algorithm detects and localizes all the different obje
 SR-3 | Object classification | Algorithm identifies and classifies the litter within all the detected objects. Uses the human code for learning and improving | High | Yes
 SR-4 | Accuracy | Evaluates the accuracy of each identified object and outputs into image (E.g. “70% sure this is litter”) | High | Yes
 
-
-### Project Deliverables
-Algorithm
-* It will utilize the Google Streets API
-* When executed, it will display the Street image with outlines of the litter that is visible along with percentages based on the accuracy  
-
-Documentation 
-* How accurate the algorithm can detect the presence of litter according to our tests
-* What types of litter we considered for the algorithm
-* What types of litter we did not consider for the algorithm
-* A programmers manual
-* A user manual
-
-### Measures of Project Success
-JAD 1 Establish Requirements of the project  
-JAD 2 Finalize Requirements of the project  
-Prototype 1 Have an algorithm working with static images  
-Prototype 2 Have an algorithm working that only identifies litter  
-Final Algorithm working that is as accurate as possible  
-
 ### Timeline
 ![Image](https://i.imgur.com/FcqMOXd.png)
 
