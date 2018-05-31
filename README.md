@@ -1,6 +1,6 @@
 # litter-detection-tensorflow
 CSUSM: Project Management & Practice  
-Spring 2018 - Dr. Shuan-inn Wuu
+Spring 2018 - Dr. Shaun-inn Wuu
 ![Image](https://i.imgur.com/yUgihfe.png)
 
 # Task
@@ -43,7 +43,7 @@ After hours of research, fixIT found that a large dataset specific to litter was
 Keep America Beautiful provided a team of students who would label the images. This team used the labelImg software provided by fixIT for this purpose. The students initially separated the images using the following categories: images with litter and images without litter. They then labeled all of the images with litter. Once the students were done with labeling, fixIT needed to verify the validity of these images’ labels. As a result of the verification stage, the team found that some of the labeled images were not labeled well, and thus were of no use. At the end of this process, it was found thatabout 3,000 images were usable for the dataset. Although not all images provided were labeled, the 3,000 images that were proved to be especially useful due to the fact that in total, 9,000 pieces of litter were labeled.
 
 ### Training
-![Image](https://i.imgur.com/cP42Ya1.gif)
+![Image](https://i.imgur.com/eAYeRJr.gif)  
 The goal for Prototype 2 was to implement the litter recognition portion of the algorithm. In order to implement the recognition, however, the team would first need to train the labeled dataset according to its needs. The team first split the dataset into two sets; 80% of images were used for training and the rest was used for testing. FixIT trained the algorithm to certain amount of “steps”, producing a checkpoint file used to test the algorithm’s litter recognition accuracy. These checkpoint files indicated to the team when to stop the training and test the algorithm to verify the algorithm’s learning progress. If the team deemed the algorithm to be overtrained, the previously saved checkpoint file would be used.
 
 ### Litter Detection
